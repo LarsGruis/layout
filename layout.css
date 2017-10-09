@@ -1,0 +1,285 @@
+body{
+    background-image: url("http://victoria-alkmaar.nl/wp-content/uploads/2017/03/66-876x583.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Verdana;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+ 
+nav{
+             text-align: center;
+             width: 100%;
+             background: rgb(219, 0, 50);
+             
+}
+ 
+ul {
+             margin: 0;
+             padding: 0;
+             list-style: none;
+             position: relative;
+ }
+ 
+ 
+ul li a {
+             text-decoration: none;
+             color: white;
+             display: block;
+             padding: 25px;
+             width: 100px;
+ 
+ 
+}
+ 
+ 
+ul:after {
+             content: ""; clear:both;
+             display: block;
+            
+ 
+ 
+}
+ 
+ul li{
+             float: left;
+             list-style: none;
+}
+ 
+ul ul {
+             display: none;
+}
+ 
+ul li:hover > ul{
+             display: block;
+            color: rgba(0, 0, 0 , 0.4);
+}
+ 
+ 
+ul li:hover {
+             background-color: white;
+             transition: 0.9s;
+             color: rgba(219, 0, 50, 0);
+}
+ 
+ 
+ul li:hover a, ul li:hover li a {
+             color: rgb(255, 255, 255);
+             
+
+}
+
+ul li:hover a {
+    color: rgb(219, 0, 50);
+
+
+ 
+}
+ 
+ 
+ 
+ul ul {
+             background: black;
+             padding: 0;
+             margin: 0;
+             position: absolute; top: 100%;
+             background-color: rgb(219, 0, 50);
+ 
+}
+ 
+ul ul li {
+             float: none;
+             position: relative;
+ 
+}
+ 
+ul ul li a {
+             padding: 25px;
+             color: white;
+             width: 150px;
+             text-align: left;
+ 
+}
+ 
+ul ul li a:hover {
+             background: white;
+             color: rgb(219, 0, 50);
+             transition: 0.9s;
+ 
+}
+
+.call-outs-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding-left: 65px;
+    padding-right: 75px;
+}
+
+
+
+@media(min-width: 1000px) {
+    .call-outs-container {
+        display: flex;
+        justify-content: space-between;
+}
+}
+
+@media(min-width: 1000px) {
+    .call-outs-container2 {
+        display: flex;
+        justify-content: space-between;
+}
+}
+
+@media(max-width: 1000px){
+    aside{
+        display: none;
+    }
+
+}
+
+
+.call-out{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin: 5 auto;
+    width: 400px;
+    height: 290px;
+}
+
+
+
+.call-out:nth-child(1) {background-color: rgb(219, 0, 50);}
+.call-out:nth-child(2) {background-color: rgb(219, 0, 50);}
+.call-out:nth-child(3) {background-color: rgb(219, 0, 50);}
+.call-out:nth-child(4) {background-color: rgb(219, 0, 50);}
+
+.vanrhijn{
+    width: 360px;
+    height: 185px;
+    padding-top: 20px;
+    padding-left: 17px;
+}
+
+a{
+    color: white;
+}
+
+.vejinovic{
+    width: 320px;
+    height: 155px;
+    padding-top: 9px;
+    padding-left: 37px;
+}
+
+.ouwejan{
+    width: 310px;
+    height: 170px;
+    padding-top: 27px;
+    padding-left: 45px;
+}
+
+.wedstrijd{
+    width: 390px;
+    height: 160px;
+    padding-top: 27px;
+    padding-left: 6px;
+}
+
+.h1{
+    font-size: 30px;
+    color: white;
+    padding-left: 5px;
+
+}
+
+.text{
+    font-size: 18px;
+    color: white;
+    padding-top: 20px;
+    padding-right: 60%;
+    padding-left: 5px;
+}
+
+.h2{
+    font-size: 30px;
+    color: white;
+    padding-left: 0px;
+
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+    padding-left: 3px;
+}
+
+h4{
+    color: white;
+    padding-left: 5px;
+}
+
+p{
+    padding-left: 6px;
+}
+
+.text2{
+    font-size: 18px;
+    color: white;
+    padding-right: 60%;
+    padding-top: 15px;
+}
+
+.advertentie{
+    float: right;
+    width: 300px;
+    height: 500px;
+    padding-top: 120px;
+    padding-right: 38px;
+}
+
+.footer{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    background-color: rgb(219, 0, 50);\
+    
+}
+
+.footer-prijzen{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    background-color: rgb(219, 0, 50);
+}
+
+.header{
+    height: 90px;
+    width: 180px;
+}
+
+header{
+    background-color: rgb(219, 0, 50);
+    clear: left;
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    padding-left: 38px;
+}
+
+header h1{
+    display: inline;
+    color: white;
+    padding-bottom: 0px;
+    padding-left: 37px;
+}
+
